@@ -1,0 +1,330 @@
+.container{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+.header__container{
+  margin-bottom: 20px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__span{
+  margin-left: 80px;
+}
+
+.navbar{
+  margin-left: -500px;
+  list-style: none;
+  display: flex;
+}
+.navbar__link{
+  text-decoration: none;
+  padding: 0 30px;
+}
+.header__btn{
+  font-family: Space Mono;
+font-size: 15px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+background-color: rgb(217, 165, 34);
+border: 1px solid transparent;
+padding: 5px 15px;
+margin-right: 80px;
+}
+.hero__container{
+  background-image:  url(../image/Bitmap\ \(14\).png);
+    background-repeat: no-repeat;
+}
+.hero__container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero__title{
+  font-family: Space Mono;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+  text-align: left;
+  color:rgb(233, 217, 217) ;
+  margin-left: 200px;
+}
+.services__img{
+  border-radius: 50%;
+}
+.services__container{
+  padding-top: 100px;
+  align-items: center;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.services__box{
+  width: 400px;
+  margin-left: 150px;
+}
+.services__img_name{
+  position: absolute;
+  margin-left: 700px;
+  margin-top: 100px;
+}
+.services__img{
+  margin-right: 120px;
+}
+.services__title{
+  font-family: Space Mono;
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: -2.142857074737549px;
+text-align: left;
+color: rgba(73, 85, 103, 1);
+}
+.services__text{
+  font-family: Lexend Deca;
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: left;
+color: rgba(73, 85, 103, 1);
+}
+.contact__container{
+  margin-top: 100px;
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.contact__box{
+  width: 450px;
+  margin-right: 100px;
+}
+.contact__img{
+  border-radius: 50%;
+  margin-left: 120px;
+}
+.contact__img_name{
+  position: absolute;
+  margin-top: -130px;
+}
+.contact__title{
+  font-family: Space Mono;
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: -2.142857074737549px;
+text-align: left;
+color: rgba(73, 85, 103, 1);
+}
+.contact__text{
+  font-family: Lexend Deca;
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: left;
+color: rgba(73, 85, 103, 1);
+}
+.section__list{
+  display: flex;
+  list-style: none;
+}
+.section__item{
+  width: 33%;
+  position: relative;
+ padding: 10px;
+}
+.section__title{
+  font-family: Space Mono;
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: -2.142857074737549px;
+width: 540px;
+height: 48px;
+text-align: center;
+color: rgba(73, 85, 103, 1);
+margin-left: 260px;
+}
+.section__img{
+  position: absolute;
+ margin-top: 200px;
+ margin-left: -170px;
+}
+.section__title_name{
+  margin-top: 90px;
+margin-left: 80px;
+font-family: Space Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: -1.0714285373687744px;
+color: rgba(73, 85, 103, 1);
+}
+.section__text{
+  font-family: Lexend Deca;
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: center;
+color: rgba(73, 85, 103, 1);
+}
+.footer__title{
+  font-family: Space Mono;
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: -2.142857074737549px;
+text-align: center;
+color:  rgba(73, 85, 103, 1);
+}
+.footer__box{
+  display: flex;
+  justify-content: space-between;
+}
+.footer__title_name{
+  font-family: Space Mono;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: -1.7857142686843872px;
+text-align: left;
+color:  rgba(73, 85, 103, 1);
+}
+.footer__list{
+list-style: none;
+width: 800px;
+}
+.footer__item{
+  border-radius: 30px;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  background: rgba(242, 245, 249, 1);
+
+}
+.footer__title_inform{
+  width: 700px;
+  font-family: Space Mono;
+font-size: 34px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: -1.0714285373687744px;
+text-align: left;
+
+}
+.footer__text{
+  width: 650px;
+  font-family: Lexend Deca;
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.footer__box1{
+  display: flex;
+  justify-content: space-between;
+}
+.footer__title_name1{
+  font-family: Space Mono;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -1.7857142686843872px;
+  text-align: left;
+  color:  rgba(73, 85, 103, 1);
+}
+.footer__list1{
+  list-style: none;
+  width: 800px;
+  }
+  .footer__item1{
+    border-radius: 30px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background: rgba(242, 245, 249, 1);
+  }
+  .footer__title_inform1{
+    width: 700px;
+    font-family: Space Mono;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.0714285373687744px;
+  text-align: left;
+  
+  }
+  .footer__text1{
+    width: 650px;
+    font-family: Lexend Deca;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  
+  }
+  .wrapper__container{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-image: url(../image/Mask.png);
+  }
+  .wrapper__box{
+    display: flex;
+    justify-content: space-between;
+  }
+  .wrapper__title{
+    margin-top: 100px;
+    font-family: Space Mono;
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: -2.142857074737549px;
+text-align: left;
+  color: white;
+  margin-left: 150px;
+  width: 380px;
+  }
+  .wrapper__span1{
+    margin-right: 150px;
+    margin-top: 100px;
+  }
+  .wrapper__box_name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -50px;
+    height: 100px;
+    background: rgb(56, 56, 75)  ;
+  }
+  .wrapper__list{
+    list-style: none;
+    display: flex;
+  }
+  .wrapper__item{
+    margin-top: 15px;
+  }
+  .wrapper__link{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    margin-left: 60px;
+  }
+  .wrapper__span{
+margin-right: 150px;
+  }
